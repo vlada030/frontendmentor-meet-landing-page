@@ -1,9 +1,13 @@
 .footer {
     text-align: center;
     background-image: linear-gradient(rgba($colorBlueDark, 0.9) rgba($colorBlueDark, 0.9)), url('../assets/mobile/image-footer.jpg');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position-y: 112px;
+
+    @include media(tablet) {
+        
+    }
 
     h2 {
         padding: 0 24px;

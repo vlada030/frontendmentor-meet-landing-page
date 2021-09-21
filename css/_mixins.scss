@@ -1,4 +1,4 @@
-@mixin media-querie($device) {
+@mixin media($device) {
     @if ($device == tablet) {
         @media only screen and (min-width: $tabPortrait) {@content};
     }
