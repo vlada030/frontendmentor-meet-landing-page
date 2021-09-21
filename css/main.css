@@ -1,0 +1,146 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  color: #87879D;
+  font-weight: 500;
+  line-height: 26px;
+  background: #F2F2F2;
+}
+
+.container {
+  width: 375px;
+  background: #FAFAFA;
+  margin: 0 auto;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 900;
+  color: #FAFAFA;
+  border: none;
+  border-radius: 29px;
+  line-height: 26px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn--1 {
+  background: #4D96A9;
+  padding: 16px 37px;
+}
+
+.btn--1:hover {
+  background: #71C0D4;
+}
+
+.btn--1 span {
+  margin-left: 4px;
+  color: #8FE3F9;
+}
+
+.btn--2 {
+  background: #855FB1;
+  padding: 16px 27px;
+}
+
+.btn--2:hover {
+  background: #B18BDD;
+}
+
+.header {
+  padding: 48px 0 40px 0;
+  overflow: hidden;
+}
+
+.header .logo {
+  display: block;
+  width: 119px;
+  margin: 0 auto;
+  margin-bottom: 54px;
+}
+
+.header .hero {
+  display: block;
+  width: 414px;
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
+  margin-bottom: 48px;
+}
+
+.header .header-text {
+  padding: 0 24px;
+  text-align: center;
+}
+
+.header .header-text h1 {
+  color: #28283D;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 44px;
+  padding: 0 20px;
+  margin-bottom: 24px;
+}
+
+.header .header-text > p {
+  margin-bottom: 32px;
+}
+
+.header .header-text .btn-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .header-text .btn-wrapper button:first-of-type {
+  margin-bottom: 16px;
+}
+
+.main {
+  padding: 24px;
+}
+
+.main .page-number {
+  height: 140px;
+  margin: 0 auto;
+  border: 1px solid hotpink;
+  position: relative;
+}
+
+.main .page-number .line {
+  width: 50%;
+  height: 100%;
+  border-right: 1px solid #28283D;
+  z-index: -1;
+}
+
+.main .page-number .number {
+  position: absolute;
+  top: 84px;
+  left: 50%;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 1px solid #28283D;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+/*# sourceMappingURL=main.css.map */

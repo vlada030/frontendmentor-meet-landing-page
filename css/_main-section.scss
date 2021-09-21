@@ -1,0 +1,32 @@
+.main {
+    padding: 24px;
+
+    .page-number {
+        height: 140px;
+        margin: 0 auto;
+        border: 1px solid hotpink;
+
+        position: relative;
+
+        .line {
+            width: 50%;
+            height: 100%;
+            border-right: 1px solid $colorBlack;
+            z-index: -1;
+        }
+
+        .number {
+            position: absolute;
+            top: 84px;
+            left: 50%;
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            border: 1px solid $colorBlack;
+            transform: translateX(-50%);
+            ;
+        }
+
+    }
+
+}

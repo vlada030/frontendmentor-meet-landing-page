@@ -1,0 +1,35 @@
+.btn {
+    font-size: 16px;
+    font-weight: 900;
+    color: $colorWhite;
+    border: none;
+    border-radius: 29px;
+    line-height: 26px;
+    transition: all 0.3s;
+
+
+    &--1 {
+        background: $colorBlueDark;
+        padding: 16px 37px;
+
+        &:hover {
+            background: $colorBlue;
+        }
+
+        span {
+            margin-left: 4px;
+            color: $colorBlueLight;
+        }
+    }
+
+    &--2 {
+        background: $colorPurpleDark;
+        padding: 16px 27px;
+
+        &:hover {
+            background: $colorPurple;
+        }
+    }
+
+
+}
