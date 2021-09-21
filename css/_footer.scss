@@ -1,0 +1,23 @@
+.footer {
+    text-align: center;
+    background-image: linear-gradient(rgba($colorBlueDark, 0.9) rgba($colorBlueDark, 0.9)), url('../assets/mobile/image-footer.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 112px;
+
+    h2 {
+        padding: 0 24px;
+        margin-bottom: 24px;
+    }
+
+    .footer-text {
+        color: $colorWhite;
+        font-size: 18px;
+        padding: 0 24px;
+        margin-bottom: 32px;
+    }
+
+    .btn--3 {
+        margin-bottom: 72px;
+    }
+}

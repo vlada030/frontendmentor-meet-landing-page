@@ -10,7 +10,7 @@
 body {
   font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
-  color: #87879D;
+  color: #87879d;
   font-weight: 500;
   line-height: 26px;
   background: #F2F2F2;
@@ -54,6 +54,73 @@ body {
 
 .btn--2:hover {
   background: #B18BDD;
+}
+
+.btn--3 {
+  background: #855FB1;
+  padding: 16px 37px;
+}
+
+.btn--3:hover {
+  background: #B18BDD;
+}
+
+.btn--3 span {
+  margin-left: 4px;
+  color: #D9B8FF;
+}
+
+.heading {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 900;
+}
+
+.heading--dark {
+  color: #28283D;
+}
+
+.heading--light {
+  color: #FAFAFA;
+}
+
+.page-number {
+  height: 140px;
+  margin: 0 auto 64px auto;
+}
+
+.page-number .line {
+  width: 50%;
+  height: 100%;
+  border-right: 1px solid rgba(135, 135, 157, 0.25);
+  position: relative;
+}
+
+.page-number .number {
+  position: absolute;
+  top: 84px;
+  left: 100%;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #FAFAFA;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page-number .number p {
+  font-weight: 900;
 }
 
 .header {
@@ -118,29 +185,61 @@ body {
   padding: 24px;
 }
 
-.main .page-number {
-  height: 140px;
-  margin: 0 auto;
-  border: 1px solid hotpink;
-  position: relative;
+.main .image-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  gap: 24px 25px;
+  margin-bottom: 64px;
 }
 
-.main .page-number .line {
-  width: 50%;
-  height: 100%;
-  border-right: 1px solid #28283D;
-  z-index: -1;
+.main .image-grid img {
+  width: 151px;
+  border-radius: 8px;
 }
 
-.main .page-number .number {
-  position: absolute;
-  top: 84px;
-  left: 50%;
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  border: 1px solid #28283D;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+.main .article {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.main .article h5 {
+  color: #4D96A9;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 24px;
+}
+
+.main .article h2 {
+  margin-bottom: 32px;
+}
+
+.footer {
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(77, 150, 169, 0.9))), url("../assets/mobile/image-footer.jpg");
+  background-image: linear-gradient(rgba(77, 150, 169, 0.9) rgba(77, 150, 169, 0.9)), url("../assets/mobile/image-footer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 112px;
+}
+
+.footer h2 {
+  padding: 0 24px;
+  margin-bottom: 24px;
+}
+
+.footer .footer-text {
+  color: #FAFAFA;
+  font-size: 18px;
+  padding: 0 24px;
+  margin-bottom: 32px;
+}
+
+.footer .btn--3 {
+  margin-bottom: 72px;
 }
 /*# sourceMappingURL=main.css.map */
