@@ -1,9 +1,17 @@
 @mixin media($device) {
-    @if ($device == tablet) {
+    @if $device == tablet {
         @media only screen and (min-width: $tabPortrait) {@content};
     }
-
-    @if ($device == desktop) {
-        @media only screen and (min-width: $tabLand) {@content};
+    @if $device == desktop {
+        @media only screen and (min-width: $tabLandDesktop) {@content};
     }
 }
+
+// @mixin media($breakpoint) {
+//     @if $breakpoint == tablet {
+//         @media only screen and (min-width: $tabPortrait) { @content }; 
+//     }
+//     @if $breakpoint == desktop {
+//         @media only screen and (min-width: $tabLandDesktop) { @content };    
+//     }
+// }

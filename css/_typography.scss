@@ -5,6 +5,7 @@
     border: none;
     border-radius: 29px;
     line-height: 26px;
+    cursor: pointer;
     transition: all 0.3s;
 
     &--1 {
@@ -58,6 +59,13 @@
     &--light {
         color: $colorWhite; 
     }
+
+    @include media(tablet) {
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    
 }
 
 .page-number {
@@ -65,7 +73,11 @@
     margin: 0 auto 64px auto;
 
     @include media(tablet) {
-        margin: 0 auto 67px auto;
+        margin: 0 auto 66px auto;
+    }
+
+    @include media(desktop) {
+        margin: 0 auto 64px auto;
     }
     
     .line {

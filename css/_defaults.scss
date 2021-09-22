@@ -19,9 +19,14 @@ body {
     width: 375px;
     background: $colorWhite;
     margin: 0 auto;  
+
     
     @include media(tablet) {
         width: 768px;
+    }
+    
+    @include media(desktop) {
+        width: 1440px;
     }
     
 }
